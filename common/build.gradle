@@ -1,0 +1,10 @@
+// Floo_Powder common module - version-agnostic API interfaces
+// Uses VanillaGradle to get Minecraft classes for compilation
+
+plugins {
+    id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
+}
+
+minecraft {
+    version(minecraft_version)
+}
